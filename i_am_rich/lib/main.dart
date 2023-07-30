@@ -9,8 +9,10 @@ void main() {
           backgroundColor: Colors.pinkAccent.shade200,
         ),
         backgroundColor: Colors.black,
-        body: Center(
-          child: Image.asset('/Users/anushthan/Pictures/Walls/apple-sanlitun_2560x1600.jpg'),
+        body: const Center(
+          child: Image(
+            image: AssetImage('images/im1.jpg'),
+          )
         ),
       ),
     ),
